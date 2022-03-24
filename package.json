@@ -1,6 +1,5 @@
 {
   "name": "Canadian-Pharmacy",
-  "proxy": "http://127.0.0.1:5000",
   "version": "1.0.0",
   "description": "MERN shopping cart app",
   "main": "server.js",
@@ -29,7 +28,6 @@
     "multer": "^1.4.2"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^5.3.0"
   }
 }

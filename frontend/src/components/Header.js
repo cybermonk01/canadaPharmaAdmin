@@ -5,6 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import SearchBox from "./SearchBox";
 import { logout } from "../actions/userActions";
+import { blue } from "colors";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -21,7 +22,12 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>Canadian Pharmacy</Navbar.Brand>
+            <Navbar.Brand>
+              <img
+                src="https://www.canadapharmacyonline.com/images/logo.webp"
+                alt=""
+              />
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
